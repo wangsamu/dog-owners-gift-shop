@@ -1,0 +1,16 @@
+import React from "react";
+import { Group, Input, InputLabel } from "./form-input.styles";
+
+function FormInput({ label, inputOptions }) {
+  return (
+    <Group>
+      <Input required {...inputOptions} />
+      {label && (
+        //if "inputOptions.value.length" is 0, it'll be evaluated as falsy
+        <InputLabel shrink={inputOptions.value.length}>{label}</InputLabel>
+      )}
+    </Group>
+  );
+}
+
+export default FormInput;
