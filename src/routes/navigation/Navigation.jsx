@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import { Outlet } from 'react-router-dom';
-import { ReactComponent as CrownLogo } from '../../assets/crown.svg';
+import paw from '../../assets/paw.png';
 import { signOutUser } from '../../utils/firebase/firebase.utils';
 import CartIcon from '../../components/cart-icon/CartIcon';
 import CartDropdown from '../../components/cart-dropdown/CartDropdown';
@@ -22,7 +22,7 @@ const Navigation = () => {
     <Fragment>
       <NavigationContainer>
         <Logo to='/'>
-          <CrownLogo />
+          <img src={paw} alt='Shop logo' />
         </Logo>
         <NavLinks>
           <NavLink to='/shop'>SHOP</NavLink>

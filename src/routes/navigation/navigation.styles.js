@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const NavigationContainer = styled.div`
   height: 70px;
@@ -10,9 +10,12 @@ const NavigationContainer = styled.div`
   margin-bottom: 25px;
 `;
 const Logo = styled(Link)`
-  height: 100%;
-  width: 70px;
-  padding: 25px;
+  /* padding: 25px; */
+
+  && img {
+    height: 50px;
+    width: 50px;
+  }
 `;
 const NavLinks = styled.div`
   width: 50%;
