@@ -9,6 +9,7 @@ const CartIconContainer = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-left: 1.5rem;
 `;
 
 const ShoppingIcon = styled(CartIconSVG)`

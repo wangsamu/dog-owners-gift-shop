@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { CartIcon } from '../../components/cart-icon/CartIcon';
 
 const NavigationContainer = styled.div`
   height: 70px;
   width: 100%;
+  margin-top: 1rem;
   padding: 20px 60px;
   display: flex;
   justify-content: space-between;
@@ -14,8 +16,8 @@ const Logo = styled(Link)`
   /* padding: 25px; */
 
   && img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
 `;
 const NavLinks = styled.div`
@@ -25,8 +27,9 @@ const NavLinks = styled.div`
   align-items: center;
   justify-content: flex-end;
 `;
+
 const NavLink = styled(Link)`
-  padding: 10px 25px;
+  padding: 10px 1.5rem;
   cursor: pointer;
   font-size: 1.8rem;
 `;
