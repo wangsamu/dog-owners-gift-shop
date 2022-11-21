@@ -25,7 +25,7 @@ const Navigation = () => {
           <img src={paw} alt='Shop logo' />
         </Logo>
         <NavLinks>
-          <NavLink to='/shop'>SHOP</NavLink>
+          <NavLink to='/'>SHOP</NavLink>
 
           {currentUser ? (
             <NavLink as='span' onClick={signOutUser}>

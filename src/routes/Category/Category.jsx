@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import { Fragment } from "react/cjs/react.production.min";
-import ProductCard from "../../components/product-card/ProductCard";
-import { selectCategoriesMap } from "../../store/categories/category.selector";
-import { CategoryContainer, CategoryTitle } from "./category.styles";
+import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import { Fragment } from 'react/cjs/react.production.min';
+import ProductCard from '../../components/product-card/ProductCard';
+import { selectCategoriesMap } from '../../store/categories/category.selector';
+import {
+  CategoryContainer,
+  CategoryItemsContainer,
+  CategoryTitle,
+} from './category.styles';
 
 function Category() {
   const { category } = useParams();
@@ -16,15 +20,15 @@ function Category() {
   }, [category, categoriesMap]);
 
   return (
-    <Fragment>
-      <CategoryTitle>{category.toUpperCase()}</CategoryTitle>
-      <CategoryContainer>
+    <CategoryContainer>
+      <CategoryTitle>DOGO {category.toUpperCase()}</CategoryTitle>
+      <CategoryItemsContainer>
         {products &&
           products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
-      </CategoryContainer>
-    </Fragment>
+      </CategoryItemsContainer>
+    </CategoryContainer>
   );
 }
 

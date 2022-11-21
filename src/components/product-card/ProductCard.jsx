@@ -1,16 +1,17 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from 'react-redux';
 
-import { selectCartItems } from "../../store/cart/cart.selector";
-import { addItemToCart } from "../../store/cart/cart.action";
+import { selectCartItems } from '../../store/cart/cart.selector';
+import { addItemToCart } from '../../store/cart/cart.action';
 
-import Button, { BUTTON_TYPE_CLASSES } from "../button/Button";
+import Button, { BUTTON_TYPE_CLASSES } from '../button/Button';
 
 import {
   ProductCardContainer,
   Footer,
   Name,
   Price,
-} from "./product-card.styles";
+  ImageContainer,
+} from './product-card.styles';
 
 function ProductCard({ product }) {
   const { name, price, imageUrl } = product;
@@ -21,7 +22,9 @@ function ProductCard({ product }) {
 
   return (
     <ProductCardContainer>
-      <img src={imageUrl} alt={name} />
+      <ImageContainer>
+        <img src={imageUrl} alt={name} />
+      </ImageContainer>
       <Footer>
         <Name>{name}</Name>
         <Price>{price}</Price>
