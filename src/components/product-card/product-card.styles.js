@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const ProductCardContainer = styled.div`
   width: 100%;
@@ -11,8 +11,8 @@ const ProductCardContainer = styled.div`
   img {
     width: 100%;
     height: 95%;
-    object-fit: cover;
     margin-bottom: 5px;
+    object-fit: scale-down;
   }
 
   button {
