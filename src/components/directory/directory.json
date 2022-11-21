@@ -1,27 +1,42 @@
 [
   {
     "id": 1,
-    "title": "hats",
-    "imageUrl": "https://i.ibb.co/cvpntL1/hats.png"
+    "title": "Toys",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/c22/c06/2df9ed3c7fdf5479e7c0d6fd6db6e9bf01-6----.2x.rhorizontal.w600.jpg"
   },
   {
     "id": 2,
-    "title": "jackets",
-    "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png"
+    "title": "Beds",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/109/63c/e8155bcf29b20a015454383746298edd05-doggy.2x.rhorizontal.w600.jpg"
   },
   {
     "id": 3,
-    "title": "sneakers",
-    "imageUrl": "https://i.ibb.co/0jqHpnp/sneakers.png"
+    "title": "Grooming",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/037/1ec/9402a3cf40c7b288868b66f9a2840e2979.2x.rdeep-vertical.w245.jpg"
   },
   {
     "id": 4,
-    "title": "womens",
-    "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    "title": "Feeders & Waterers",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/249/475/5389983d95cd6f0e1d1cf1763335ea9721-191112-01.2x.rhorizontal.w600.jpg"
   },
   {
     "id": 5,
-    "title": "mens",
-    "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
+    "title": "Clothing",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/6b0/940/6b1d8d168435318f424388892e128c7aa0-kule-dog-coat.2x.rdeep-vertical.w245.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Nutrition",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/7d3/b88/7b4fbed905a6c1852c7c204f3264520885-dog-treats-05.2x.rhorizontal.w600.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Collars & Leashes",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/566/6ed/5eb19098d4cbc75e2c4c0ffb5d7198f4e4-costa-mesa.2x.rhorizontal.w600.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Other",
+    "imageUrl": "https://pyxis.nymag.com/v1/imgs/55f/6df/621aec7c7c646b39c27084c056aeb7aa80-wild-one-poopbag.2x.rsquare.w215.jpg"
   }
 ]

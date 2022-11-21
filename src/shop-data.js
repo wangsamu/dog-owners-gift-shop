@@ -73,7 +73,7 @@ const SHOP_DATA = [
         id: 10,
         name: 'Best Friends by Sheri Luxury Shag Faux-Fur Doughnut Cuddler $35 now 37% off',
         imageUrl:
-          'https://www.amazon.com/dp/B01MV0IX66?tag=thestrategistsite-20&ascsubtag=[]st[p]cjh6kgxrr006k5iy6unpydtqq[i]onOJqB[v]a[u]2[t]w[r]search.brave.com[d]D[z]m',
+          'https://pyxis.nymag.com/v1/imgs/109/63c/e8155bcf29b20a015454383746298edd05-doggy.2x.rhorizontal.w600.jpg',
         price: 220,
       },
       {
@@ -85,9 +85,9 @@ const SHOP_DATA = [
       },
       {
         id: 12,
-        name: 'Casper Memory-Foam Dog Bed',
+        name: 'Pendleton Yakima Camp Kuddler Bolster',
         imageUrl:
-          'https://go.redirectingat.com/?xs=1&id=1025X1552619&url=https%3A%2F%2Fwww.orvis.com%2Fp%2Forvis-comfortfill-eco-couch-dog-bed%2F20ff&xcust=___st__p_cjh6kgxrr006k5iy6unpydtqq__i_ziCJ20__v_a__u_2__t_w__r_search.brave.com__d_D__z_m&sref=https%3A%2F%2Fnymag.com%2Fstrategist%2Farticle%2Fbest-gifts-for-dog-lovers.html',
+          'https://pyxis.nymag.com/v1/imgs/f4f/96f/2b8d1f62c292488af0f394d168d503d645.2x.rhorizontal.w600.jpg',
         price: 220,
       },
     ],
@@ -264,7 +264,7 @@ const SHOP_DATA = [
         id: 52,
         name: 'Trixie Portable Dog Splash Pool',
         imageUrl:
-          'https://goto.walmart.com/c/1141873/565706/9383?u=https%3A%2F%2Fwww.walmart.com%2Fip%2F681932905&subId2=[]st[p]cjh6kgxrr006k5iy6unpydtqq[i]Drx6Em[v]a[u]2[t]w[r]search.brave.com[d]D[z]m',
+          'https://pyxis.nymag.com/v1/imgs/3d1/3ce/bdf92d5cf3841adeedb5f3f83f9ff70640-pool-.2x.rdeep-vertical.w245.png',
         price: 220,
       },
     ],

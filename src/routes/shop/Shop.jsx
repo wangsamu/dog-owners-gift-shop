@@ -14,16 +14,17 @@ function Shop() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const refreshCategories = async () => {
-      await addCollectionAndDocuments('pet-categories', shopData);
-    };
+    // const refreshCategories = async () => {
+    //   await addCollectionAndDocuments('pet-categories', shopData);
+    // };
+
+    // refreshCategories();
 
     const getCategoriesMap = async () => {
       const categoriesArray = await getCategoriesAndDocuments('pet-categories');
       dispatch(setCategories(categoriesArray));
     };
 
-    refreshCategories();
     getCategoriesMap();
   }, []);
 
